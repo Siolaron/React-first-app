@@ -1,0 +1,18 @@
+.card{
+    border-left: 2px solid #fff;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 1rem;
+    transition-duration: .1s;
+}
+
+.card h2 {
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
